@@ -54,6 +54,7 @@ public class TestEmptySpace {
         };
 
         b = new Board(rawVals, 0);
+        System.out.println(Model.emptySpaceExists(b));
         assertTrue("Bottom row is empty\n" + b,
                 Model.emptySpaceExists(b));
     }
